@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #191825;
+  color: #f5f5fa;
+}
+header {
+  background: #49108B;
+  color: #fff;
+  padding: 28px 0 10px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+header .subtitle {
+  font-size: 1.3rem;
+  margin: 8px 0 18px 0;
+  font-weight: 300;
+  color: #e0cdfa;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.06rem;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #D74DFF;
+}
+main {
+  max-width: 740px;
+  margin: 32px auto 60px auto;
+  padding: 22px;
+  background: #251E35;
+  border-radius: 10px;
+  box-shadow: 0 4px 32px rgba(41, 18, 85, 0.11);
+}
+section {
+  margin-bottom: 38px;
+}
+section#promo {
+  background: #D74DFF22;
+  padding: 18px;
+  border-radius: 8px;
+}
+section#promo h2 {
+  margin-top: 0;
+}
+section#promo audio {
+  width: 100%;
+  display: block;
+  margin: 10px 0 16px 0;
+}
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+.song-list li {
+  padding: 7px 0;
+  border-bottom: 1px solid #49108B44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.song-list strong {
+  font-size: 1.13rem;
+}
+.song-list .year {
+  color: #D74DFF;
+  font-size: 1rem;
+}
+
+#social-links h2 {
+  margin-bottom: 13px;
+}
+.socials {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+}
+.socials a {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 6px;
+  margin: 4px 0;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-decoration: none;
+  background: #49108B;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.socials a.soundcloud:hover { background: #ff5500; }
+.socials a.twitch:hover { background: #6441a5; }
+.socials a.instagram:hover { background: #e1306c; }
+.socials a.applemusic:hover { background: #fa233b; }
+.socials a.spotify:hover { background: #1DB954; }
+.socials a.youtube:hover { background: #ff0000; }
+
+footer {
+  text-align: center;
+  padding: 12px 0;
+  background: #49108B;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
